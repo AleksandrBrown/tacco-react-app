@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.96eb8efd.css",
-    "main.js": "/static/js/main.03300b43.js",
-    "static/js/787.ff6d20e6.chunk.js": "/static/js/787.ff6d20e6.chunk.js",
-    "static/media/1bg.png": "/static/media/1bg.a2bacef2ff143ed2549b.png",
-    "static/media/mainImg.png": "/static/media/mainImg.695517a115792612e6f8.png",
-    "static/media/tacoGallery2.png": "/static/media/tacoGallery2.3cd5e5c5f38307860d82.png",
-    "static/media/tacoGallery1.png": "/static/media/tacoGallery1.6121ad8bd7163326253d.png",
-    "static/media/tacoGallery5.png": "/static/media/tacoGallery5.a80aa495cd797ad26478.png",
-    "static/media/productImg.png": "/static/media/productImg.a80716c09b9e1c676676.png",
-    "static/media/tacoGallery3.png": "/static/media/tacoGallery3.bd587a54e6d508cb34a2.png",
-    "static/media/tacoGallery4.png": "/static/media/tacoGallery4.1fa6ff28b297b6d9056d.png",
-    "static/media/tacoGallery6.png": "/static/media/tacoGallery6.c93dc1464c41b1661cec.png",
-    "static/media/tacoPorkeProduct.png": "/static/media/tacoPorkeProduct.6a837d888744f61a0f22.png",
-    "static/media/tacoProduct.png": "/static/media/tacoProduct.3791dd73af9019346809.png",
-    "static/media/logo.png": "/static/media/logo.8edef8485620a14ffee9.png",
-    "index.html": "/index.html",
-    "main.96eb8efd.css.map": "/static/css/main.96eb8efd.css.map",
-    "main.03300b43.js.map": "/static/js/main.03300b43.js.map",
-    "787.ff6d20e6.chunk.js.map": "/static/js/787.ff6d20e6.chunk.js.map"
+    "main.css": "/tacco-react-app/static/css/main.96eb8efd.css",
+    "main.js": "/tacco-react-app/static/js/main.5794d02e.js",
+    "static/js/787.ff6d20e6.chunk.js": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js",
+    "static/media/1bg.png": "/tacco-react-app/static/media/1bg.a2bacef2ff143ed2549b.png",
+    "static/media/mainImg.png": "/tacco-react-app/static/media/mainImg.695517a115792612e6f8.png",
+    "static/media/tacoGallery2.png": "/tacco-react-app/static/media/tacoGallery2.3cd5e5c5f38307860d82.png",
+    "static/media/tacoGallery1.png": "/tacco-react-app/static/media/tacoGallery1.6121ad8bd7163326253d.png",
+    "static/media/tacoGallery5.png": "/tacco-react-app/static/media/tacoGallery5.a80aa495cd797ad26478.png",
+    "static/media/productImg.png": "/tacco-react-app/static/media/productImg.a80716c09b9e1c676676.png",
+    "static/media/tacoGallery3.png": "/tacco-react-app/static/media/tacoGallery3.bd587a54e6d508cb34a2.png",
+    "static/media/tacoGallery4.png": "/tacco-react-app/static/media/tacoGallery4.1fa6ff28b297b6d9056d.png",
+    "static/media/tacoGallery6.png": "/tacco-react-app/static/media/tacoGallery6.c93dc1464c41b1661cec.png",
+    "static/media/tacoPorkeProduct.png": "/tacco-react-app/static/media/tacoPorkeProduct.6a837d888744f61a0f22.png",
+    "static/media/tacoProduct.png": "/tacco-react-app/static/media/tacoProduct.3791dd73af9019346809.png",
+    "static/media/logo.png": "/tacco-react-app/static/media/logo.8edef8485620a14ffee9.png",
+    "index.html": "/tacco-react-app/index.html",
+    "main.96eb8efd.css.map": "/tacco-react-app/static/css/main.96eb8efd.css.map",
+    "main.5794d02e.js.map": "/tacco-react-app/static/js/main.5794d02e.js.map",
+    "787.ff6d20e6.chunk.js.map": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96eb8efd.css",
-    "static/js/main.03300b43.js"
+    "static/js/main.5794d02e.js"
   ]
 }
