@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tacco-react-app/static/css/main.96eb8efd.css",
-    "main.js": "/tacco-react-app/static/js/main.4fb913df.js",
+    "main.js": "/tacco-react-app/static/js/main.19c81a11.js",
     "static/js/787.ff6d20e6.chunk.js": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js",
     "static/media/1bg.png": "/tacco-react-app/static/media/1bg.a2bacef2ff143ed2549b.png",
     "static/media/mainImg.png": "/tacco-react-app/static/media/mainImg.695517a115792612e6f8.png",
@@ -17,11 +17,11 @@
     "static/media/logo.png": "/tacco-react-app/static/media/logo.8edef8485620a14ffee9.png",
     "index.html": "/tacco-react-app/index.html",
     "main.96eb8efd.css.map": "/tacco-react-app/static/css/main.96eb8efd.css.map",
-    "main.4fb913df.js.map": "/tacco-react-app/static/js/main.4fb913df.js.map",
+    "main.19c81a11.js.map": "/tacco-react-app/static/js/main.19c81a11.js.map",
     "787.ff6d20e6.chunk.js.map": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96eb8efd.css",
-    "static/js/main.4fb913df.js"
+    "static/js/main.19c81a11.js"
   ]
 }
