@@ -14,9 +14,9 @@ function ToggleBtn ({ id, buttonClasses }) {
 }
 
 
-function OrderAgain({handleAddToCart,handleCardOpnr}) {
+function OrderAgain({handleAddToCart, handleCardOpnr}) {
     const [count, setCount] = React.useState(0)
-    const OrderAgain = [
+    const OrderAgainArray = [
         {   
             productName: "Taco with chicken",
             productImg: productIconChicken,
@@ -33,8 +33,7 @@ function OrderAgain({handleAddToCart,handleCardOpnr}) {
         },
     ]
     function addToCartAgain (e) {
-        if(!e.target.tagName === "BUTTON") return
-        let productItem = OrderAgain.find(item => item.id === e.target.id)
+        let productItem = OrderAgainArray.find(item => item.id === parseFloat(e.target.id))
         let status = ""
         if(e.target.classList.contains('active')) {
             setCount(count-1)
@@ -48,7 +47,7 @@ function OrderAgain({handleAddToCart,handleCardOpnr}) {
     }
     return (
         <div className="flex flex-row gap-6">
-            {OrderAgain.map(item => (
+            {OrderAgainArray.map(item => (
                 <div
                     key={item.id}
                    className="flex flex-col rounded-lg bg-white h-40  dark:bg-amber-500 md:max-w-xl md:flex-row">

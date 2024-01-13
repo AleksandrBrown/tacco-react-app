@@ -16,7 +16,6 @@ function Home () {
     const [cart, setCart] = React.useState([])
     const [totalCount, setNewTotal] = React.useState(0)
     const [isCartActive, setCartActive] = React.useState(false)
-
     function AuthFunction (userData) {
         const userAdmin = {
             username: "admin",
@@ -41,6 +40,7 @@ function Home () {
             setCart(newArray)
         } else if(status === "add"){
             setCart([...cart,product])
+            console.log(product)
             setNewTotal(totalCount => totalCount+parseFloat(product.productPrice))
         }
     }
