@@ -1,0 +1,3 @@
+{
+    visibilityFilter: 'SHOW_ALL'
+}
