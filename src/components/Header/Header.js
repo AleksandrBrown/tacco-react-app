@@ -4,9 +4,10 @@ import TacoCategory from "../Menu/TacoCategory"
 import Button from "../SpecialComponents/Button";
 import ModalAuthWindow from "../Auth/ModalAuthWindow"
 import PortalComponent from "../SpecialComponents/Rportal";
-
+import { useSelector } from "react-redux";
 
 function Header ({activeMethods, isLogginFn, isLogginState, errorState, logOutFn, loginStatus}) {
+    const cartR = useSelector((state) => state.cart.value)
     const [currentModalInfo, setModalInfo] = React.useState(null)
     const [isOpenModalOpen, setModalOpen] = React.useState(false)
     const navList = [
@@ -36,6 +37,7 @@ function Header ({activeMethods, isLogginFn, isLogginState, errorState, logOutFn
             </a>
             <TacoCategory list={navList} />
             <div className="flex gap-4" onClick={handleModalButtonClick}>
+                {cartR.length > 0 ? <p className="text-white text-xl">{cartR.length}</p> : ""}
                 {!isLogginState ?<Button buttonClass="SignIn bg-slate-200 px-4 py-2 rounded font-medium hover:bg-slate-300 transition easy-in" title="Sign In"/>: ""}
                 {!isLogginState ?<Button buttonClass="Registration bg-lime-200 px-4 py-2 rounded font-medium hover:bg-lime-300 transition easy-in" title="Registration"/>: ""}
                 {isLogginState ? <Button handleClick={activeMethods} buttonClass="text-white px-4 py-2 rounded font-medium hover:text-stone-800 hover:bg-amber-300 transition easy-in" title="Cart"/> : ""}

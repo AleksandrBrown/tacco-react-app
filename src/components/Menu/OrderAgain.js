@@ -1,7 +1,8 @@
 import React from "react"
 import productIconChicken from "../../assets/tacoProduct.png"
 import productIconPorke from "../../assets/tacoPorkeProduct.png"
-
+import { useDispatch,useSelector } from "react-redux";
+import { addToCart } from "../../store/slices/cartSlice";
 function ToggleBtn ({ id, buttonClasses }) {
     const [isActive, setIsActive] = React.useState(false);
 
@@ -15,6 +16,8 @@ function ToggleBtn ({ id, buttonClasses }) {
 
 
 function OrderAgain({handleAddToCart, handleCardOpnr}) {
+    const cartR = useSelector((state) => state.cart.value)
+    const dispatch = useDispatch()
     const [count, setCount] = React.useState(0)
     const OrderAgainArray = [
         {   
@@ -41,6 +44,7 @@ function OrderAgain({handleAddToCart, handleCardOpnr}) {
         }else{
             setCount(count+1)
             handleAddToCart(productItem, status = "add")
+            dispatch(addToCart(productItem))
         }
         
         

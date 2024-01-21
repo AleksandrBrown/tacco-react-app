@@ -8,26 +8,7 @@ import GalleryBlock from "./components/OtherBlocks/Gallery";
 import SaleToday from "./components/OtherBlocks/SaleToday";
 import OrderAgain from "./components/Menu/OrderAgain";
 import Cart from "./components/Cart/Cart";
-import {
-    SET_VISIBILITY_FILTER,
-    VisibilityFilters,
-  } from './actions';
-
 function Home () {
-    
-      
-      /// ...
-      
-    function todoApp(state = initialState, action) {
-        switch (action.type) {
-          case SET_VISIBILITY_FILTER:
-            return Object.assign({}, state, {
-              visibilityFilter: action.filter,
-            });
-          default:
-            return state;
-        }
-    }
     const [isLoggedIn, setIsLoggedIn] = React.useState(false)
     const [loggedError, setErrorState] = React.useState(false)
     const [loginStatus, setLoginStatus] = React.useState(false)
