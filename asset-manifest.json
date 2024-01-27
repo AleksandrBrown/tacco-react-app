@@ -1,27 +1,35 @@
 {
   "files": {
-    "main.css": "/tacco-react-app/static/css/main.96eb8efd.css",
-    "main.js": "/tacco-react-app/static/js/main.19c81a11.js",
+    "main.css": "/tacco-react-app/static/css/main.2d6294da.css",
+    "main.js": "/tacco-react-app/static/js/main.2efc5df8.js",
     "static/js/787.ff6d20e6.chunk.js": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js",
-    "static/media/1bg.png": "/tacco-react-app/static/media/1bg.a2bacef2ff143ed2549b.png",
     "static/media/mainImg.png": "/tacco-react-app/static/media/mainImg.695517a115792612e6f8.png",
-    "static/media/tacoGallery2.png": "/tacco-react-app/static/media/tacoGallery2.3cd5e5c5f38307860d82.png",
-    "static/media/tacoGallery1.png": "/tacco-react-app/static/media/tacoGallery1.6121ad8bd7163326253d.png",
-    "static/media/tacoGallery5.png": "/tacco-react-app/static/media/tacoGallery5.a80aa495cd797ad26478.png",
     "static/media/productImg.png": "/tacco-react-app/static/media/productImg.a80716c09b9e1c676676.png",
-    "static/media/tacoGallery3.png": "/tacco-react-app/static/media/tacoGallery3.bd587a54e6d508cb34a2.png",
-    "static/media/tacoGallery4.png": "/tacco-react-app/static/media/tacoGallery4.1fa6ff28b297b6d9056d.png",
-    "static/media/tacoGallery6.png": "/tacco-react-app/static/media/tacoGallery6.c93dc1464c41b1661cec.png",
+    "static/media/tacoReviews.png": "/tacco-react-app/static/media/tacoReviews.e754c35f210e46ff97d9.png",
+    "static/media/taco-about.png": "/tacco-react-app/static/media/taco-about.d3db435b687822acbb48.png",
     "static/media/tacoPorkeProduct.png": "/tacco-react-app/static/media/tacoPorkeProduct.6a837d888744f61a0f22.png",
     "static/media/tacoProduct.png": "/tacco-react-app/static/media/tacoProduct.3791dd73af9019346809.png",
     "static/media/logo.png": "/tacco-react-app/static/media/logo.8edef8485620a14ffee9.png",
+    "static/media/tacoIcon.png": "/tacco-react-app/static/media/tacoIcon.fe8d2ec41113b845ff80.png",
+    "static/media/01.svg": "/tacco-react-app/static/media/01.34485b865137684810f796348241c0a4.svg",
+    "static/media/02.svg": "/tacco-react-app/static/media/02.ff1272dafa93e0ef035dd33659f4b8ed.svg",
+    "static/media/05.svg": "/tacco-react-app/static/media/05.2943ec8e17e38c016dc290eb7c50ceaa.svg",
+    "static/media/04.svg": "/tacco-react-app/static/media/04.b96e97845025bfb68c0cf203e473894b.svg",
+    "static/media/03.svg": "/tacco-react-app/static/media/03.107cf02403b072c7b00514e8de943f5f.svg",
+    "static/media/instagram.svg": "/tacco-react-app/static/media/instagram.17fa16c27d04d8f40bd95c70b5c407cb.svg",
     "index.html": "/tacco-react-app/index.html",
-    "main.96eb8efd.css.map": "/tacco-react-app/static/css/main.96eb8efd.css.map",
-    "main.19c81a11.js.map": "/tacco-react-app/static/js/main.19c81a11.js.map",
+    "static/media/blob-bg.svg": "/tacco-react-app/static/media/blob-bg.45358e04258a069ea5c4de50d31f17d1.svg",
+    "static/media/blob-au.svg": "/tacco-react-app/static/media/blob-au.8e331fd8913c9d788e1b.svg",
+    "static/media/blob-re.svg": "/tacco-react-app/static/media/blob-re.b053fb9aa186c9e8d120.svg",
+    "static/media/twitter.svg": "/tacco-react-app/static/media/twitter.380ab250659fa3a46c774ee96b2d8b73.svg",
+    "static/media/facebook.svg": "/tacco-react-app/static/media/facebook.b09d5bf7d1b42dfcbd511355852e96bf.svg",
+    "static/media/linkedin.svg": "/tacco-react-app/static/media/linkedin.1633a96222d704c5ee5222386dd242bd.svg",
+    "main.2d6294da.css.map": "/tacco-react-app/static/css/main.2d6294da.css.map",
+    "main.2efc5df8.js.map": "/tacco-react-app/static/js/main.2efc5df8.js.map",
     "787.ff6d20e6.chunk.js.map": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96eb8efd.css",
-    "static/js/main.19c81a11.js"
+    "static/css/main.2d6294da.css",
+    "static/js/main.2efc5df8.js"
   ]
 }
