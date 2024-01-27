@@ -1,9 +1,8 @@
 import React from "react";
 
-function Button ({buttonClass, title, handleClick}) {
-    console.log('btn render')
+function Button ({buttonClass, title, handleClick,id}) {
     return (
-        <button className={buttonClass} onClick={handleClick}>
+        <button id={id && `${id}`} className={buttonClass} onClick={handleClick}>
             {title}
         </button>
     )

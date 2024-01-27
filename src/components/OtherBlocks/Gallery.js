@@ -10,27 +10,33 @@ function GalleryBlock () {
     const galleryArr = [
         {
             title: "Taco img 1",
-            img: galleryImg1
+            img: galleryImg1,
+            id: 1
         },
         {
             title: "Taco img 2",
-            img: galleryImg2
+            img: galleryImg2,
+            id: 2
         },
         {
             title: "Taco img 3",
-            img: galleryImg3
+            img: galleryImg3,
+            id: 3
         },
         {
             title: "Taco img 4",
-            img: galleryImg4
+            img: galleryImg4,
+            id: 4
         },
         {
             title: "Taco img 5",
-            img: galleryImg5
+            img: galleryImg5,
+            id: 5
         },
         {
             title: "Taco img 6",
-            img: galleryImg6
+            img: galleryImg6,
+            id: 6
         }
     ]
     return (
@@ -38,7 +44,7 @@ function GalleryBlock () {
         <div className="-m-1 flex flex-wrap md:-m-2">
             {
                 galleryArr.map(galleryItem => (
-                    <div className="flex w-1/3 flex-wrap">
+                    <div className="flex w-1/3 flex-wrap" key={galleryItem.id}>
                     <div className="w-full p-1 md:p-2">
                         <img
                         alt={galleryItem.title}

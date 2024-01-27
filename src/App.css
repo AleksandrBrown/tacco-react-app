@@ -3,8 +3,19 @@
 @tailwind utilities;
 
 
-
 .Home {
     min-height: 100dvh;
-    background: radial-gradient(ellipse, #111419, #272F35);
+    /* background: radial-gradient(ellipse, #111419, #272F35); */
+    /* background: #FEFDF7; */
 }
+.about-us-bg {
+    background: url('./assets/blob-au.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.reviews-bg {
+    background: url('./assets/blob-re.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+  

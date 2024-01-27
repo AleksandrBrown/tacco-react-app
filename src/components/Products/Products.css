@@ -1,0 +1,32 @@
+.splide__pagination {
+    position: relative!important;
+    bottom: -20px!important;
+}
+.splide__pagination > .presentation > .splide__pagination__page {
+    width: 12px!important;
+    height: 12px!important;
+}
+.splide__pagination > .presentation > .splide__pagination__page.is-active {
+    background: #000!important;
+}
+.popular-products--slider > .splide__track {
+    padding:10% 0 ;
+    overflow-x: hidden!important;
+    overflow-y: visible!important;
+}
+
+.popular-products--slider > .splide__track > .splide__list > .splide__slide.is-active {
+    transform: translateY(20px);
+    transition: 200ms ease-in;
+}
+
+/* Reviews */
+
+.rewievs--slider > ul > li > .splide__pagination__page {
+    background: #000!important;
+    width: 10px!important;
+    height: 10px!important;
+}
+.rewievs--slider > ul > li > .splide__pagination__page.is-active {
+    background: #FF9d02!important;
+}

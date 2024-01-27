@@ -10,10 +10,7 @@ function ProductItem ({productInfo}) {
     return (
         <div
         className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-amber-500 w-1/3 overflow-hidden">
-        <div
-            className="relative overflow-hidden bg-cover bg-no-repeat"
-            data-te-ripple-init
-            data-te-ripple-color="light">
+        <div className="relative overflow-hidden bg-cover bg-no-repeat">
             <img
             className="rounded-t-lg w-full h-80"
             src={productInfo.productImg}
@@ -37,8 +34,7 @@ function ProductItem ({productInfo}) {
                 onClick={clickHandler}
                 type="button"
                 className={`${isAdded ? "is-active " : "" }bg-amber-700 inline-block rounded px-10 pb-3 pt-3 text-sm font-medium uppercase leading-normal text-white hover:bg-amber-300 ease-in transition`}
-                data-te-ripple-init
-                data-te-ripple-color="light">
+                >
                 {isAdded ? "Remove" : "Add"}
                 </button>
             </div>

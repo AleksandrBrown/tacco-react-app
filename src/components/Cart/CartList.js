@@ -6,7 +6,7 @@ function CartList ({productList,onRemoveItem}) {
     return (
         <ul className="cart-items">
             {productList.map((item) => (
-                <CartItem item={item} onRemoveItem={onRemoveItem}/>
+                <CartItem key={item.id} item={item}/>
             ))}
             
         </ul>

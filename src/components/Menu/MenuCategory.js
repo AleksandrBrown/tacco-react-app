@@ -1,6 +1,6 @@
 import React from "react";
 
-function TacoCategory ({list}) {
+function MenuCategory ({list}) {
     return (
         <ul className="flex flex-row gap-6">
             {list.map((item => (
@@ -10,4 +10,4 @@ function TacoCategory ({list}) {
     )
 }
 
-export default TacoCategory
+export default MenuCategory
