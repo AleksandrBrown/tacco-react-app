@@ -30,7 +30,7 @@ function Reviews () {
                                             <div className="flex gap-4 w-1/2">
                                                 <div className="w-1/3 flex items-start">
                                                     <div className="bg-amber-400 p-2 rounded-full">
-                                                        <img className="w-14 h-14" src={prof.userIcon} alt="logo"/>
+                                                        <img className="w-14 h-14" src={prof.icon} alt="logo"/>
                                                     </div>
                                                 </div>
                                                 <div className="flex flex-col justify-center gap-1">

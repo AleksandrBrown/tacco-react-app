@@ -2,9 +2,12 @@ import React from "react";
 import FormLogo from "../../assets/logo.png"
 import { useDispatch, useSelector } from "react-redux"
 import { login } from '../../store/slices/authSlice';
+import { setCurrentUser } from '../../store/slices/userSlice'
+import { usersList } from "../usersList";
 
 function SignInForm ({handleSwitcher}) {
-  const { isLoggedIn, isAdmin, error } = useSelector((state) => state.auth);
+  const { isLoggedIn, error } = useSelector((state) => state.auth)
+  const userDataObj = useSelector((state) => state.user)
   const dispatch = useDispatch()
   const [errorStatus, setErrorStatus] = React.useState(false)
   const [formData, setFormData] = React.useState({
@@ -23,11 +26,14 @@ function SignInForm ({handleSwitcher}) {
     }
     const handleSubmit = (e) => {
       e.preventDefault()
-      dispatch(login(formData))
+      let userData = usersList.find(user => user.login === formData.username)
+      dispatch(login(formData, userData))
+      dispatch(setCurrentUser(userData))
     }
     React.useEffect(() => {
       setErrorStatus(error)
     },[error])
+    React.useEffect(() => console.log(userDataObj),[userDataObj])
     return (
       <section className="gradient-form h-full z-30">
         <div className="container h-full p-10">
@@ -112,3 +118,8 @@ function SignInForm ({handleSwitcher}) {
 }
 
 export default SignInForm
+
+
+
+// window.localStorage.setItem("token", JSON.stringify(dispatch.getState().auth.token));
+// console.log(JSON.parse(window.atob(dispatch.getState().auth.token.split('.')[1])).exp * 1000 - Date.now

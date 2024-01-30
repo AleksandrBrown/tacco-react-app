@@ -27,11 +27,12 @@ export const cartSlice = createSlice({
         removeFromCart(state, action) {
             const productIndex = state.value.findIndex(product => product.id === parseFloat(action.payload) )
             if (productIndex !== -1) {
+                state.total -= parseFloat(state.value[productIndex].price)
                 state.value[productIndex].quantity -= 1;
                 if (state.value[productIndex].quantity === 0) {
-                    state.value.splice(productIndex, 1);
+                    state.value.splice(productIndex, 1)
                 }
-                state.total -= parseFloat(state.value[productIndex].price);
+                
             }
         }
     }

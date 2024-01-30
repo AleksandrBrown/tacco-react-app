@@ -6,8 +6,8 @@ const initialState = {
     error: false,
     isAdmin: false,
     adminLogin: {
-        name: 'admin',
-        password: '1111'
+      name: 'admin',
+      password: '1111'
     }
 }
 
@@ -15,7 +15,7 @@ export const authSlice = createSlice({
     name: 'auth',
     initialState,
     reducers: {
-        loginSuccess: (state) => {
+          loginSuccess: (state) => {
             state.isLoggedIn = true
           },
           loginAdminSuccess: (state) => {
@@ -34,18 +34,16 @@ export const authSlice = createSlice({
 
 export const { loginSuccess, loginAdminSuccess, logoutSuccess, errorStatus } = authSlice.actions;
 
-export const login = (credentials) => (dispatch) => {
+export const login = (credentials, findedData) => (dispatch) => {
+    if(!findedData && credentials.username !== 'admin') dispatch(errorStatus())
     setTimeout(() => {
-      if (credentials.username === 'demo' && credentials.password === '1234') {
+      if (credentials.username === findedData.login && credentials.password === findedData.password) {
         if(initialState.error) dispatch(errorStatus())
-        console.log(initialState.error)
-        console.log('work')
-        dispatch(loginSuccess())
+          dispatch(loginSuccess())
       } else if (credentials.username === initialState.adminLogin.name && credentials.password === initialState.adminLogin.password) {
-        console.log('admin')
-        dispatch(loginAdminSuccess())
+          dispatch(loginAdminSuccess())
       } else {
-        dispatch(errorStatus())
+          dispatch(errorStatus())
       }
     }, 1000)
   }

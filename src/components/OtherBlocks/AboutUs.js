@@ -1,6 +1,5 @@
 import React from "react"
 import Button from "../SpecialComponents/Button"
-// import AboutUsIcon from '../../assets/blob-au.svg'
 import tacoAbout from "../../assets/taco-about.png"
 
 function AboutUs () {
