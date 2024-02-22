@@ -11,7 +11,7 @@ import Rating from "../SpecialComponents/Rating";
 function PopularProducts () {
     const dispatch = useDispatch()
     function handleAddToCart (e) {
-        let productItem = productListData.find(item => item.id === parseFloat(e.target.id))
+        let productItem = productListData.find(item => item.id === e.target.id)
         if(e.target.classList.contains('active')) {
         } else {
             dispatch(addToCart(productItem))

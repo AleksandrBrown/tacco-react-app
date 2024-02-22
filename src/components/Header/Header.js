@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"
+import { Events, animateScroll as scroll } from 'react-scroll'
 import './Header.css'
 import logo from "../../assets/logo.png"
 import { MoonIcon, ShoppingCartIcon, SunIcon, UserCircleIcon } from '@heroicons/react/24/outline'
@@ -12,6 +13,8 @@ import { swapTheme } from '../../store/slices/themeSlice'
 
 
 function Header ({activeMethods, isLogginFn, errorState, handleAuthMenu, isMenuActive, loginStatus}) {
+    //Header position
+    //User state
     const isLogged = useSelector((state) => state.auth.isLoggedIn)
     const userIcon = useSelector((state) => state.user.icon)
     // Theme
@@ -22,6 +25,7 @@ function Header ({activeMethods, isLogginFn, errorState, handleAuthMenu, isMenuA
     const [currentModalInfo, setModalInfo] = React.useState(null)
     const [isOpenModalOpen, setModalOpen] = React.useState(false)
     // Nav
+    const [scrolled, setScrolled] = React.useState(false)
     const navList = [
         {link: "#", linkName: "Home"},
         {link: "#", linkName: "MyTaco"},
@@ -57,7 +61,7 @@ function Header ({activeMethods, isLogginFn, errorState, handleAuthMenu, isMenuA
         setModalOpen(false)
     },[isLogged])
     return (
-        <header className="bg-stone-900 px-10 flex items-center justify-between rounded-md">
+        <header className={`${scrolled ? 'fixed top-5' : 'relative'} bg-stone-900 px-10 flex items-center justify-between rounded-md header`}>
             <a href="/"className="Logo-container cursor-pointer">
                 <img src={logo} alt="logo" className="h-20"/>
             </a>
@@ -72,7 +76,7 @@ function Header ({activeMethods, isLogginFn, errorState, handleAuthMenu, isMenuA
                     : (
                         <Button
                             handleClick={handleAuthMenu}
-                            buttonClass={`${isMenuActive? 'bg-amber-600' : ''} Logged group px-4 py-2 rounded font-medium hover:bg-amber-600 transition easy-in delay-400 w-14`}
+                            buttonClass={`${isMenuActive? 'bg-amber-600' : ''} Logged group px-4 py-2 rounded font-medium hover:bg-amber-600 transition easy-in delay-400 w-14 cursor-pointer`}
                             title={!isLogged ? <UserCircleIcon className="text-stone-200 h-6 group-hover:text-stone-800 pointer-events-none" /> : <img src={userIcon} alt="icon" className="bg-amber-400 rounded-full"/>
                         } 
                         />

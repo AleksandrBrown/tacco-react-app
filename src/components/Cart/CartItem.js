@@ -14,7 +14,7 @@ function CartItem ({item}) {
                     <img className={'w-14 h-14 rounded'} src={item.img}/>
                     <div className="flex flex-col justify-between">
                         <p className="font-semibold text-white text-md">{item.name}</p>
-                        <p className="text-amber-400 text-md">{item.price}</p>
+                        <p className="text-amber-400 text-md">{item.price}$</p>
                     </div>
                 </div>
                 <div className="flex flex-col justify-between">

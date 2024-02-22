@@ -35,7 +35,7 @@ function Reviews () {
                                                 </div>
                                                 <div className="flex flex-col justify-center gap-1">
                                                     <div>
-                                                        <h2 className="text-xl font-bold text-gray-800 dark:text-white">{prof.userName}</h2>
+                                                        <h2 className="text-xl font-bold text-gray-800 dark:text-white">{prof.name} {prof.surname}</h2>
                                                     </div>
                                                     <div>
                                                         <ul className="my-1 flex list-none gap-1 p-0">
