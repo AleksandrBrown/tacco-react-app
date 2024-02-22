@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/tacco-react-app/static/css/main.e2a93fab.css",
-    "main.js": "/tacco-react-app/static/js/main.627c9f9e.js",
+    "main.css": "/tacco-react-app/static/css/main.c6ed4bf3.css",
+    "main.js": "/tacco-react-app/static/js/main.3246a2c0.js",
     "static/js/787.ff6d20e6.chunk.js": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js",
     "static/media/mainImg.png": "/tacco-react-app/static/media/mainImg.695517a115792612e6f8.png",
+    "static/media/tacov.mp4": "/tacco-react-app/static/media/tacov.4b36f4b143987afc20a6.mp4",
     "static/media/12-taco-img.png": "/tacco-react-app/static/media/12-taco-img.81309eec99bcbf0245af.png",
     "static/media/6-taco-img.png": "/tacco-react-app/static/media/6-taco-img.a43ac9c0bfa41a06cb92.png",
     "static/media/17-taco-img.png": "/tacco-react-app/static/media/17-taco-img.c8a5cc86ca3ef3179125.png",
@@ -31,6 +32,7 @@
     "static/media/23-taco-img.png": "/tacco-react-app/static/media/23-taco-img.db3b1b8351b94ecc045a.png",
     "static/media/7-taco-img.png": "/tacco-react-app/static/media/7-taco-img.50baac9bd179dde8a4ba.png",
     "static/media/2-taco-img.png": "/tacco-react-app/static/media/2-taco-img.5c9ce5327c5bf3077277.png",
+    "static/media/tacoplaceholder 1.svg": "/tacco-react-app/static/media/tacoplaceholder 1.24253fddcf3d0174ba7766e0923b331c.svg",
     "static/media/logo.png": "/tacco-react-app/static/media/logo.8edef8485620a14ffee9.png",
     "static/media/tacoIcon.png": "/tacco-react-app/static/media/tacoIcon.fe8d2ec41113b845ff80.png",
     "static/media/9.svg": "/tacco-react-app/static/media/9.a6facc62e0717d95cd06.svg",
@@ -61,12 +63,12 @@
     "static/media/twitter.svg": "/tacco-react-app/static/media/twitter.380ab250659fa3a46c774ee96b2d8b73.svg",
     "static/media/facebook.svg": "/tacco-react-app/static/media/facebook.b09d5bf7d1b42dfcbd511355852e96bf.svg",
     "static/media/linkedin.svg": "/tacco-react-app/static/media/linkedin.1633a96222d704c5ee5222386dd242bd.svg",
-    "main.e2a93fab.css.map": "/tacco-react-app/static/css/main.e2a93fab.css.map",
-    "main.627c9f9e.js.map": "/tacco-react-app/static/js/main.627c9f9e.js.map",
+    "main.c6ed4bf3.css.map": "/tacco-react-app/static/css/main.c6ed4bf3.css.map",
+    "main.3246a2c0.js.map": "/tacco-react-app/static/js/main.3246a2c0.js.map",
     "787.ff6d20e6.chunk.js.map": "/tacco-react-app/static/js/787.ff6d20e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2a93fab.css",
-    "static/js/main.627c9f9e.js"
+    "static/css/main.c6ed4bf3.css",
+    "static/js/main.3246a2c0.js"
   ]
 }
